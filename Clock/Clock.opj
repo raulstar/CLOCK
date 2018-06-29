@@ -1,0 +1,88 @@
+(ExpressProject "Clock"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\clock.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "C:\MEUS DOCUMENTOS\PROJETOS\CLOCK.DRC")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File "C:\MEUS DOCUMENTOS\PROJETOS\CLOCK.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\clock.drc"
+      (Type "Report"))
+    (File ".\clock.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (LastUsedLibraryBrowseDirectory "C:\Meus documentos\Projetos")
+  (PartMRUSelector
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\MEUS DOCUMENTOS\PROJETOS\BLIBIOTECA CAPTURE.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR VAR"
+      (FullPartName "RESISTOR VAR.Normal")
+      (LibraryName "C:\MEUS DOCUMENTOS\PROJETOS\BLIBIOTECA CAPTURE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\MEUS DOCUMENTOS\PROJETOS\BLIBIOTECA CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\MEUS DOCUMENTOS\PROJETOS\BLIBIOTECA CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (SE555
+      (FullPartName "SE555.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\MISCLINEAR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "E:\Meus documentos\PROJETOS\CLOCK\clock.dsn")
+      (Path "Design Resources" "E:\Meus documentos\PROJETOS\CLOCK\clock.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" "E:\Meus documentos\PROJETOS\CLOCK\clock.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 160 458 -4 -23 131 331 35 332"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 160 482 -4 -23 88 734 88 444")
+        (Scroll "0 0")
+        (Zoom "57")
+        (Occurrence "/"))
+      (Path "E:\MEUS DOCUMENTOS\PROJETOS\CLOCK\CLOCK.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
